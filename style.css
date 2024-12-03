@@ -31,9 +31,9 @@ header .container {
 }
 
 header h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #333;
-    margin-left: -120px;
+    margin-left: -350PX;
 }
 
 header h1 span {
@@ -43,17 +43,20 @@ header h1 span {
 nav ul {
     display: flex;
     list-style: none;
+    margin-right: -350px;
+   
 }
 
 nav ul li {
     margin-left: 40px;
+    
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 span{
@@ -85,10 +88,10 @@ span{
 }
 
 .left-section h2{
-    margin-bottom: 20px;
+    margin: 20px 35px ;
     background-color: #21005d;
     padding: 8px;
-    width: 300px;
+    width: 400px;
     color: #f8f8f8;
     text-align: center;
 }
@@ -111,9 +114,8 @@ span{
 }
 
 .left-section h3{
-    margin-bottom: 15px;
-    font-size: 20px;
-    margin-left: 60px;
+    margin: 15px 35px;
+    font-size: 1.5em;
 }
 
 .right-section {
@@ -147,7 +149,7 @@ span{
 
 .parag{
     color: #000;
-    margin: 5px 760px 40px;
+    margin: 5px 820px 40px;
     width: 770px;
     
 
@@ -213,6 +215,7 @@ span{
     padding: 100px 50px;
     background-color: #504e4e;
     color: #ffffff;
+    font-size: 1.6em;
  }
 
  .services-grid{
